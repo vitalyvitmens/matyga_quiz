@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:matyga_quiz/pages/home_page.dart';
-import 'package:google_fonts/google_fonts.dart';
+import 'package:matyga_quiz/resources/theme.dart';
 
 void main() {
   debugPaintSizeEnabled = false;
@@ -15,12 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'МАТУГА (1996-2002)',
-      theme: ThemeData(
-        primarySwatch: Colors.indigo,
-        textTheme: GoogleFonts.openSansCondensedTextTheme(
-          Theme.of(context).textTheme,
-        ),
-      ),
+      theme: usualTheme,
       home: const HomePage(),
     );
   }

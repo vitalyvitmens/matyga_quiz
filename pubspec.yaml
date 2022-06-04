@@ -61,7 +61,19 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/images/
+  fonts:
+    - family: ComforterBrush
+      fonts:
+        - asset: assets/fonts/comforter_brush/regular.ttf
+    - family: Merriweather
+      fonts:
+        - asset: assets/fonts/merriweather/regular.ttf
+    - family: GentiumPlus
+      fonts:
+        - asset: assets/fonts/gentium_plus/regular.ttf
 
+        
+        
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
 
