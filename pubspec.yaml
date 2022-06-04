@@ -79,6 +79,10 @@ flutter:
         - asset: assets/fonts/cormorant_garamond/regular.ttf
         - asset: assets/fonts/cormorant_garamond/bold.ttf
         - asset: assets/fonts/cormorant_garamond/medium.ttf
+    - family: Caveat
+      fonts:
+        - asset: assets/fonts/caveat/regular.ttf
+        - asset: assets/fonts/caveat/bold.ttf
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
 

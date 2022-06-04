@@ -74,10 +74,25 @@ class Result extends StatelessWidget {
           const Divider(
             color: Colors.white,
           ),
-          Text(
-            'Верных ответов: $count из $total',
-            style: const TextStyle(
-              fontSize: 26.0,
+          RichText(
+            text: TextSpan(
+              children: <TextSpan>[
+                const TextSpan(
+                  text: 'Верных ответов: ',
+                  style: TextStyle(
+                    fontSize: 26.0,
+                    fontFamily: "Caveat",
+                  ),
+                ),
+                TextSpan(
+                  text: '$count из $total',
+                  style: const TextStyle(
+                    fontSize: 34.0,
+                    fontFamily: "Caveat",
+                    color: Colors.yellow,
+                  ),
+                )
+              ],
             ),
           ),
           const Divider(

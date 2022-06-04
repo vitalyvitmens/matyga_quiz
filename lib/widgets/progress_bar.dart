@@ -19,14 +19,17 @@ class ProgressBar extends StatelessWidget {
       margin: const EdgeInsets.symmetric(vertical: 10.0, horizontal: 7.0),
       child: Row(
         children: <Widget>[
-          Expanded(
-            child: Text(
-              '$count:$total',
-              textAlign: TextAlign.start,
-              style: const TextStyle(
-                fontSize: 20.0,
-                color: Colors.yellow,
-                fontWeight: FontWeight.bold,
+          SizedBox(
+            width: 60,
+            child: Expanded(
+              child: Text(
+                '$count:$total',
+                textAlign: TextAlign.start,
+                style: const TextStyle(
+                  fontSize: 26.0,
+                  color: Colors.yellow,
+                  fontWeight: FontWeight.bold,
+                ),
               ),
             ),
           ),
