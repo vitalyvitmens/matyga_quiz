@@ -30,7 +30,7 @@ class _HomePageState extends State<HomePage> {
           _icons.add(
             Icon(
               Icons.brightness_1,
-              size: 21.0,
+              size: 19.5,
               color: Colors.green[800],
             ),
           );
@@ -39,7 +39,7 @@ class _HomePageState extends State<HomePage> {
           _icons.add(
             Icon(
               Icons.brightness_1,
-              size: 21.0,
+              size: 19.5,
               color: Colors.red[900],
             ),
           );
