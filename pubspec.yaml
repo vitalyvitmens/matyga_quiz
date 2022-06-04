@@ -71,9 +71,14 @@ flutter:
     - family: GentiumPlus
       fonts:
         - asset: assets/fonts/gentium_plus/regular.ttf
-
-        
-        
+    - family: Dosis
+      fonts:
+        - asset: assets/fonts/dosis/regular.ttf
+    - family: CormorantGaramond
+      fonts:
+        - asset: assets/fonts/cormorant_garamond/regular.ttf
+        - asset: assets/fonts/cormorant_garamond/bold.ttf
+        - asset: assets/fonts/cormorant_garamond/medium.ttf
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
 

@@ -9,5 +9,5 @@ final usualTheme = ThemeData(
       headline5: TextStyle(fontWeight: FontWeight.bold),
     ),
     // указываем наш шрифт для всего приложения
-    fontFamily: "GentiumPlus",
+    fontFamily: "CormorantGaramond",
     colorScheme: ColorScheme.fromSwatch().copyWith(secondary: Colors.teal));
