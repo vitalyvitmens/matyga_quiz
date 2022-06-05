@@ -94,7 +94,7 @@ class _HomePageState extends State<HomePage> {
             ),
           ),
           floatingActionButton: FloatingActionButton(
-            elevation: 20,
+            elevation: 21,
             child: const Icon(
               Icons.snowshoeing_sharp,
               color: Colors.indigo,
