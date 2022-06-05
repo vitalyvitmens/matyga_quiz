@@ -95,7 +95,10 @@ class _HomePageState extends State<HomePage> {
           ),
           floatingActionButton: FloatingActionButton(
             elevation: 20,
-            child: const Icon(Icons.snowshoeing_sharp),
+            child: const Icon(
+              Icons.snowshoeing_sharp,
+              color: Colors.indigo,
+            ),
             onPressed: () {
               SystemNavigator.pop();
             },
