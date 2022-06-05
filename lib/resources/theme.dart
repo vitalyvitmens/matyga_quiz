@@ -10,4 +10,4 @@ final usualTheme = ThemeData(
     ),
     // указываем наш шрифт для всего приложения
     fontFamily: "Caveat",
-    colorScheme: ColorScheme.fromSwatch().copyWith(secondary: Colors.teal));
+    colorScheme: ColorScheme.fromSwatch().copyWith(secondary: Colors.indigo));

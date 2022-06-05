@@ -94,10 +94,26 @@ class _HomePageState extends State<HomePage> {
             ),
           ),
           floatingActionButton: FloatingActionButton(
-            elevation: 21,
-            child: const Icon(
-              Icons.snowshoeing_sharp,
-              color: Colors.indigo,
+            backgroundColor: Colors.indigo,
+            elevation: 10,
+            child: Container(
+              decoration: BoxDecoration(
+                color: Colors.transparent,
+                borderRadius: const BorderRadius.all(
+                  Radius.circular(100),
+                ),
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.indigo.withOpacity(0.3),
+                    spreadRadius: 20,
+                    blurRadius: 20,
+                    offset: const Offset(3, 5),
+                  ),
+                ],
+              ),
+              child: const Icon(
+                Icons.snowshoeing_sharp,
+              ),
             ),
             onPressed: () {
               SystemNavigator.pop();
