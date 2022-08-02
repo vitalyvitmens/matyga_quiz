@@ -121,9 +121,9 @@ class QuestionData {
         imgUrl: 'assets/images/11.png',
         answers: [
           {'answer': 'майор Кудин'},
-          {'answer': 'полковник Д. Ф. Захарченко'},
+          {'answer': 'полковник В. Е. Семененя'},
           {'answer': 'полковник В. П. Сидорчук'},
-          {'answer': 'полковник В. Е. Семененя', 'isCorrect': 1},
+          {'answer': 'полковник Д. Ф. Захарченко', 'isCorrect': 1},
           {'answer': 'полковник Ю. М. Колесников'},
         ]),
     Question(
