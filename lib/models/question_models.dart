@@ -1,3 +1,6 @@
+import 'package:easy_localization/easy_localization.dart';
+import 'package:matyga_quiz/generated/locale_keys.g.dart';
+
 class Question {
   final String title;
   final String imgUrl;
@@ -13,65 +16,64 @@ class Question {
 class QuestionData {
   final _data = [
     Question(
-        title: 'Любимая фраза: Да Станкевич?\nкакому из преподов принадлежит?',
+        title: LocaleKeys.question1.tr(),
         imgUrl: 'assets/images/1.png',
         answers: [
-          {'answer': 'Юдо Александр Николаевич'},
-          {'answer': 'Рипинский Антон Иванович'},
-          {'answer': 'Ефремов Сергей Николаевич', 'isCorrect': 1},
-          {'answer': 'Сидунов Аркадий Иванович'},
-          {'answer': 'Куряков Анатолий Андреевич'},
+          {'answer': LocaleKeys.yudo.tr()},
+          {'answer': LocaleKeys.ripinsky.tr()},
+          {'answer': LocaleKeys.efremov.tr(), 'isCorrect': 1},
+          {'answer': LocaleKeys.sidunov.tr()},
+          {'answer': LocaleKeys.kuryakov.tr()},
         ]),
     Question(
-        title: 'Фамилия преподавателя по физике?',
+        title: LocaleKeys.question2.tr(),
         imgUrl: 'assets/images/2.png',
         answers: [
-          {'answer': 'Борушко Нина Алексеевна'},
-          {'answer': 'Чигир Владимир Владимирович'},
-          {'answer': 'Кириленко Алексей Иванович', 'isCorrect': 1},
-          {'answer': 'Сметанников Виктор Сергеевич'},
-          {'answer': 'Чернявский Сергей Николаевич'},
+          {'answer': LocaleKeys.borushko.tr()},
+          {'answer': LocaleKeys.chigir.tr()},
+          {'answer': LocaleKeys.kirilenko.tr(), 'isCorrect': 1},
+          {'answer': LocaleKeys.smetannikov.tr()},
+          {'answer': LocaleKeys.chernyavsky.tr()},
         ]),
     Question(
-        title: 'Кличка ротного парикмахера 6 роты?',
+        title: LocaleKeys.question3.tr(),
         imgUrl: 'assets/images/3.png',
         answers: [
-          {'answer': 'Семён', 'isCorrect': 1},
-          {'answer': 'Кутя'},
-          {'answer': 'Лёня'},
-          {'answer': 'Валик'},
-          {'answer': 'Каптёр'},
+          {'answer': LocaleKeys.semyon.tr(), 'isCorrect': 1},
+          {'answer': LocaleKeys.kutya.tr()},
+          {'answer': LocaleKeys.lenya.tr()},
+          {'answer': LocaleKeys.valik.tr()},
+          {'answer': LocaleKeys.kapter.tr()},
         ]),
     Question(
-        title:
-            'Заведующий кафедрой технической эксплуатации воздушных судов и двигателей в 2002г?',
+        title: LocaleKeys.question4.tr(),
         imgUrl: 'assets/images/4.png',
         answers: [
-          {'answer': 'Юдо Александр Николаевич'},
-          {'answer': 'Рипинский Антон Иванович', 'isCorrect': 1},
-          {'answer': 'Дорохов'},
-          {'answer': 'Мельгуй'},
-          {'answer': 'Рак'},
+          {'answer': LocaleKeys.yudo.tr()},
+          {'answer': LocaleKeys.ripinsky.tr(), 'isCorrect': 1},
+          {'answer': LocaleKeys.dorokhov.tr()},
+          {'answer': LocaleKeys.melgui.tr()},
+          {'answer': LocaleKeys.rak.tr()},
         ]),
     Question(
-        title: 'Фамилия старшины 6 роты?',
+        title: LocaleKeys.question5.tr(),
         imgUrl: 'assets/images/5.png',
         answers: [
-          {'answer': 'Виничук'},
-          {'answer': 'Костеров'},
-          {'answer': 'Бохан'},
-          {'answer': 'Пономаренко', 'isCorrect': 1},
-          {'answer': 'Чудук'},
+          {'answer': LocaleKeys.vinichuk.tr()},
+          {'answer': LocaleKeys.kosterov.tr()},
+          {'answer': LocaleKeys.bohan.tr()},
+          {'answer': LocaleKeys.ponomarenko.tr(), 'isCorrect': 1},
+          {'answer': LocaleKeys.chuduk.tr()},
         ]),
     Question(
-        title: 'Кто изображен на фото?',
+        title: LocaleKeys.question6_8.tr(),
         imgUrl: 'assets/images/6.png',
         answers: [
-          {'answer': 'Ефремов Сергей Николаевич'},
-          {'answer': 'Сидунов Аркадий Иванович'},
-          {'answer': 'Чернявский Сергей Николаевич'},
-          {'answer': 'Сметанников Виктор Сергеевич'},
-          {'answer': 'Кириленко Алексей Иванович', 'isCorrect': 1},
+          {'answer': LocaleKeys.efremov.tr()},
+          {'answer': LocaleKeys.sidunov.tr()},
+          {'answer': LocaleKeys.chernyavsky.tr()},
+          {'answer': LocaleKeys.smetannikov.tr()},
+          {'answer': LocaleKeys.kirilenko.tr(), 'isCorrect': 1},
         ]),
     Question(
         title:
@@ -85,25 +87,25 @@ class QuestionData {
           {'answer': 'на военной кафедре'},
         ]),
     Question(
-        title: 'Кто изображен на фото?',
+        title: LocaleKeys.question6_8.tr(),
         imgUrl: 'assets/images/8.png',
         answers: [
-          {'answer': 'Дорохов'},
-          {'answer': 'Рипинский Антон Иванович', 'isCorrect': 1},
-          {'answer': 'Юдо Александр Николаевич'},
-          {'answer': 'Рак'},
-          {'answer': 'Чигир Владимир Владимирович'},
+          {'answer': LocaleKeys.dorokhov.tr()},
+          {'answer': LocaleKeys.ripinsky.tr(), 'isCorrect': 1},
+          {'answer': LocaleKeys.yudo.tr()},
+          {'answer': LocaleKeys.rak.tr()},
+          {'answer': LocaleKeys.chigir.tr()},
         ]),
     Question(
         title:
             'Фамилия преподавателя дисциплины: \nАВТОМАТИКА УПРАВЛЕНИЯ АВИАЦИОННЫМИ ДВИГАТЕЛЯМИ',
         imgUrl: 'assets/images/9.png',
         answers: [
-          {'answer': 'Кириленко Алексей Иванович'},
-          {'answer': 'Борушко Нина Алексеевна'},
-          {'answer': 'Ефремов Сергей Николаевич'},
-          {'answer': 'Сидунов Аркадий Иванович', 'isCorrect': 1},
-          {'answer': 'Куряков Анатолий Андреевич'},
+          {'answer': LocaleKeys.kirilenko.tr()},
+          {'answer': LocaleKeys.borushko.tr()},
+          {'answer': LocaleKeys.efremov.tr()},
+          {'answer': LocaleKeys.sidunov.tr(), 'isCorrect': 1},
+          {'answer': LocaleKeys.kuryakov.tr()},
         ]),
     Question(
         title: 'Фамилия командира 6 роты в 1996г?',
@@ -131,11 +133,11 @@ class QuestionData {
             'Фамилия преподавателя по приборостроению в ГУК, сдача предмета которому, для многих курсантов превратилась в проблему',
         imgUrl: 'assets/images/12.png',
         answers: [
-          {'answer': 'Юдо Александр Николаевич'},
-          {'answer': 'Чигир Владимир Владимирович', 'isCorrect': 1},
-          {'answer': 'Кириленко Алексей Иванович'},
-          {'answer': 'Куряков Анатолий Андреевич'},
-          {'answer': 'Мильгуй'},
+          {'answer': LocaleKeys.yudo.tr()},
+          {'answer': LocaleKeys.chigir.tr(), 'isCorrect': 1},
+          {'answer': LocaleKeys.kirilenko.tr()},
+          {'answer': LocaleKeys.kuryakov.tr()},
+          {'answer': LocaleKeys.melgui.tr()},
         ]),
     Question(
         title: 'Любимый цвет Борушко Нины Алексеевны?',
@@ -151,11 +153,11 @@ class QuestionData {
         title: 'Фамилия препода назвавшего Хиженка - Хижиной дяди Тома?',
         imgUrl: 'assets/images/14.png',
         answers: [
-          {'answer': 'Мельгуй'},
-          {'answer': 'Рак'},
-          {'answer': 'Юдо'},
-          {'answer': 'Борушко'},
-          {'answer': 'Дорохов', 'isCorrect': 1},
+          {'answer': LocaleKeys.melgui.tr()},
+          {'answer': LocaleKeys.rak.tr()},
+          {'answer': LocaleKeys.yudo.tr()},
+          {'answer': LocaleKeys.borushko.tr()},
+          {'answer': LocaleKeys.dorokhov.tr(), 'isCorrect': 1},
         ]),
   ];
 

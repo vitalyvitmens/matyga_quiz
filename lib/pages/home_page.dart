@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:matyga_quiz/models/question_models.dart';
@@ -59,67 +60,86 @@ class _HomePageState extends State<HomePage> {
       color: Colors.indigo,
       child: SafeArea(
         child: Scaffold(
-          body: DefaultTextStyle.merge(
-            style: whiteTextStyle,
-            child: Container(
-              constraints: const BoxConstraints.expand(),
-              decoration: const BoxDecoration(
-                color: Color(0xff2a375a),
-                image: DecorationImage(
-                  image: AssetImage('assets/images/MATYGA.png'),
-                  fit: BoxFit.cover,
+            body: DefaultTextStyle.merge(
+              style: whiteTextStyle,
+              child: Container(
+                constraints: const BoxConstraints.expand(),
+                decoration: const BoxDecoration(
+                  color: Color(0xff2a375a),
+                  image: DecorationImage(
+                    image: AssetImage('assets/images/MATYGA.png'),
+                    fit: BoxFit.cover,
+                  ),
+                ),
+                child: ListView(
+                  physics: const BouncingScrollPhysics(),
+                  children: <Widget>[
+                    ProgressBar(
+                      icons: _icons,
+                      count: _questionIndex,
+                      total: data.questions.length,
+                    ),
+                    _questionIndex < data.questions.length
+                        ? Quiz(
+                            index: _questionIndex,
+                            questionData: data,
+                            onChangeAnswer: _onChangeAnswer,
+                          )
+                        : Result(
+                            count: _countResult,
+                            total: data.questions.length,
+                            onClearState: _clearState,
+                          )
+                  ],
                 ),
               ),
-              child: ListView(
-                physics: const BouncingScrollPhysics(),
-                children: <Widget>[
-                  ProgressBar(
-                    icons: _icons,
-                    count: _questionIndex,
-                    total: data.questions.length,
-                  ),
-                  _questionIndex < data.questions.length
-                      ? Quiz(
-                          index: _questionIndex,
-                          questionData: data,
-                          onChangeAnswer: _onChangeAnswer,
-                        )
-                      : Result(
-                          count: _countResult,
-                          total: data.questions.length,
-                          onClearState: _clearState,
-                        )
-                ],
-              ),
             ),
-          ),
-          floatingActionButton: FloatingActionButton(
-            backgroundColor: Colors.indigo,
-            elevation: 10,
-            child: Container(
-              decoration: BoxDecoration(
-                color: Colors.transparent,
-                borderRadius: const BorderRadius.all(
-                  Radius.circular(100),
-                ),
-                boxShadow: [
-                  BoxShadow(
-                    color: Colors.indigo.withOpacity(0.3),
-                    spreadRadius: 20,
-                    blurRadius: 20,
-                    offset: const Offset(3, 5),
-                  ),
-                ],
-              ),
-              child: const Icon(
-                Icons.snowshoeing_sharp,
-              ),
-            ),
-            onPressed: () {
-              SystemNavigator.pop();
-            },
-          ),
-        ),
+            floatingActionButton: Container(
+              padding: const EdgeInsets.only(left: 35, right: 5, bottom: 5),
+              child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    FloatingActionButton(
+                      onPressed: () {},
+                      child: IconButton(
+                        icon: const Icon(Icons.language),
+                        onPressed: () {
+                          if (context.locale == const Locale('ru')) {
+                            context.setLocale(const Locale('en'));
+                          } else {
+                            context.setLocale(const Locale('ru'));
+                          }
+                        },
+                      ),
+                    ),
+                    FloatingActionButton(
+                      backgroundColor: Colors.indigo,
+                      elevation: 10,
+                      child: Container(
+                        decoration: BoxDecoration(
+                          color: Colors.transparent,
+                          borderRadius: const BorderRadius.all(
+                            Radius.circular(100),
+                          ),
+                          boxShadow: [
+                            BoxShadow(
+                              color: Colors.indigo.withOpacity(0.3),
+                              spreadRadius: 20,
+                              blurRadius: 20,
+                              offset: const Offset(3, 5),
+                            ),
+                          ],
+                        ),
+                        child: const Icon(
+                          Icons.snowshoeing_sharp,
+                        ),
+                      ),
+                      onPressed: () {
+                        SystemNavigator.pop();
+                      },
+                    ),
+                  ]),
+            )),
       ),
     );
   }
