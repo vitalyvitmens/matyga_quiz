@@ -1,18 +1,18 @@
 // DO NOT EDIT. This is code generated via package:easy_localization/generate.dart
 
 abstract class  LocaleKeys {
+  static const question1 = 'question1';
   static const yudo = 'yudo';
   static const ripinsky = 'ripinsky';
   static const efremov = 'efremov';
   static const sidunov = 'sidunov';
   static const kuryakov = 'kuryakov';
-  static const question1 = 'question1';
+  static const question2 = 'question2';
   static const borushko = 'borushko';
   static const chigir = 'chigir';
   static const kirilenko = 'kirilenko';
   static const smetannikov = 'smetannikov';
   static const chernyavsky = 'chernyavsky';
-  static const question2 = 'question2';
   static const question3 = 'question3';
   static const semyon = 'semyon';
   static const kutya = 'kutya';
@@ -22,13 +22,46 @@ abstract class  LocaleKeys {
   static const question4 = 'question4';
   static const dorokhov = 'dorokhov';
   static const melgui = 'melgui';
-  static const rak  = 'rak ';
+  static const rak = 'rak';
   static const question5 = 'question5';
   static const vinichuk = 'vinichuk';
   static const kosterov = 'kosterov';
-  static const bohan  = 'bohan ';
-  static const ponomarenko  = 'ponomarenko ';
-  static const chuduk  = 'chuduk ';
+  static const bohan = 'bohan';
+  static const ponomarenko = 'ponomarenko';
+  static const chuduk = 'chuduk';
   static const question6_8 = 'question6_8';
+  static const question7 = 'question7';
+  static const civilAirfield = 'civilAirfield';
+  static const garages = 'garages';
+  static const mEB = 'mEB';
+  static const diningRoom = 'diningRoom';
+  static const militaryDepartment = 'militaryDepartment';
+  static const question9 = 'question9';
+  static const question10 = 'question10';
+  static const khmelnitsky = 'khmelnitsky';
+  static const evseichik = 'evseichik';
+  static const lovchiy = 'lovchiy';
+  static const fizer = 'fizer';
+  static const smolay = 'smolay';
+  static const question11 = 'question11';
+  static const majorKudin = 'majorKudin';
+  static const colonelSemenenya = 'colonelSemenenya';
+  static const colonelSidorchuk = 'colonelSidorchuk';
+  static const colonelZakharchenko = 'colonelZakharchenko';
+  static const colonelKolesnikov = 'colonelKolesnikov';
+  static const question12 = 'question12';
+  static const question13 = 'question13';
+  static const rED = 'rED';
+  static const bLUE = 'bLUE';
+  static const yELLOW = 'yELLOW';
+  static const gREEN = 'gREEN';
+  static const wHITE = 'wHITE';
+  static const question14 = 'question14';
+  static const tryAgain = 'tryAgain';
+  static const correctAnswers = 'correctAnswers';
+  static const youAreAnImpostor = 'youAreAnImpostor';
+  static const notABadResult = 'notABadResult';
+  static const excellentResult = 'excellentResult';
+  static const from = 'from';
 
 }

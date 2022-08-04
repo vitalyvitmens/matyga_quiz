@@ -1,4 +1,6 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
+import 'package:matyga_quiz/generated/locale_keys.g.dart';
 
 class Result extends StatelessWidget {
   final int count;
@@ -18,13 +20,13 @@ class Result extends StatelessWidget {
     Widget img;
 
     if (0 <= count && count <= 4) {
-      msg = 'Вы самозванец, а не выпускник МАТУГА!';
+      msg = LocaleKeys.youAreAnImpostor.tr();
       img = Image.asset('assets/images/bad.png');
     } else if ((5 <= count && count <= 8)) {
-      msg = 'Неплохой результат, но Вам есть к чему стремиться!';
+      msg = LocaleKeys.notABadResult.tr();
       img = Image.asset('assets/images/norm.png');
     } else {
-      msg = 'Отличный результат! Вы реальный выпускник МАТУГА!';
+      msg = LocaleKeys.excellentResult.tr();
       img = Image.asset('assets/images/good.png');
     }
 
@@ -77,15 +79,15 @@ class Result extends StatelessWidget {
           RichText(
             text: TextSpan(
               children: <TextSpan>[
-                const TextSpan(
-                  text: 'Верных ответов: ',
-                  style: TextStyle(
+                TextSpan(
+                  text: LocaleKeys.correctAnswers.tr(),
+                  style: const TextStyle(
                     fontSize: 26.0,
                     fontFamily: "Caveat",
                   ),
                 ),
                 TextSpan(
-                  text: '$count из $total',
+                  text: '$count ${LocaleKeys.from.tr()} $total',
                   style: const TextStyle(
                     fontSize: 34.0,
                     fontFamily: "Caveat",
@@ -102,7 +104,7 @@ class Result extends StatelessWidget {
           TextButton(
             onPressed: onClearState,
             child: Text(
-              'Попробовать снова!',
+              LocaleKeys.tryAgain.tr(),
               style: TextStyle(
                 fontSize: 26.0,
                 color: Colors.amber[900],

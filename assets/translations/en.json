@@ -1,17 +1,17 @@
 {
+    "question1": "Favorite phrase: Yes, Stankevich?\nWhich of the teachers does he belong to?",
     "yudo": "Yudo Alexander Nikolaevich",
     "ripinsky": "Ripinsky Anton Ivanovich",
     "efremov": "Efremov Sergey Nikolaevich",
     "sidunov": "Sidunov Arkady Ivanovich",
     "kuryakov": "Kuryakov Anatoly Andreevich",
-    "question1": "Favorite phrase: Yes, Stankevich?\nWhich of the teachers does he belong to?",
 
+    "question2": "What is the name of the physics teacher?",
     "borushko": "Borushko Nina Alekseevna",
     "chigir": "Chigir Vladimir Vladimirovich",
     "kirilenko": "Kirilenko Alexey Ivanovich",
     "smetannikov": "Smetannikov Viktor Sergeevich",
     "chernyavsky": "Chernyavsky Sergey Nikolaevich",
-    "question2": "What is the name of the physics teacher?",
 
     "question3": "Nickname of the company hairdresser of the 6th company?",
     "semyon": "Semyon",
@@ -23,14 +23,60 @@
     "question4": "Head of the Department of Technical Operation of Aircraft and Engines in 2002?",
     "dorokhov": "Dorokhov",
     "melgui": "Melgui",
-    "rak ": "Rak ",
+    "rak": "Rak ",
 
     "question5": "Surname of the foreman of the 6th company?",
     "vinichuk": "Vinichuk",
     "kosterov": "Kosterov",
-    "bohan ": "Bohan",
-    "ponomarenko ": "Ponomarenko",
-    "chuduk ": "Chuduk",
+    "bohan": "Bohan",
+    "ponomarenko": "Ponomarenko",
+    "chuduk": "Chuduk",
 
-    "question6_8": "Who is in the photo?"
+    "question6_8": "Who is in the photo?",
+
+    "question7": "Where did the person who always urged the cadets on with questions: \n- who wants a little dork? \n- who lived in the village?",
+    "civilAirfield": "at a civil airfield",
+    "garages": "in garages",
+    "mEB": "in MEB",
+    "diningRoom": "in the dining room",
+    "militaryDepartment": "at the military department",
+
+    "question9": "Surname of the teacher of the discipline: \nAUTOMATIC CONTROL OF AIRCRAFT ENGINES",
+    
+    "question10": "Surname of the commander of the 6th company in 1996?",
+    "khmelnitsky": "Khmelnitsky",
+    "evseichik": "Evseichik",
+    "lovchiy": "Lovchiy",
+    "fizer": "Fizer",
+    "smolay": "Smolay",
+
+    "question11": "The head of the SD, who often uses the phrase during the morning formation: \"how long does the rope not twist ...\"?",
+    "majorKudin": "Major Kudin",
+    "colonelSemenenya": "Colonel V. E. Semenenya",
+    "colonelSidorchuk": "Colonel V.P. Sidorchuk",
+    "colonelZakharchenko": "Colonel D. F. Zakharchenko",
+    "colonelKolesnikov": "Colonel Yu. M. Kolesnikov",
+
+    "question12": "The surname of the teacher in instrumentation at the MEB, the delivery of the subject to which, for many cadets, has become a problem",
+
+    "question13": "Favorite color Borushko Nina Alekseevna?",
+    "rED": "RED",
+    "bLUE": "BLUE",
+    "yELLOW": "YELLOW",
+    "gREEN": "GREEN",
+    "wHITE": "WHITE",
+
+    "question14": "The surname of the teacher who called the Khyzhenka - Uncle Tom's Hut?",
+
+    "tryAgain": "Try again!",
+    
+    "correctAnswers": "Correct answers: ",
+    
+    "youAreAnImpostor": "You are an impostor, not a graduate of MATSCA!",
+
+    "notABadResult": "Not a bad result, but you have something to strive for!",
+    
+    "excellentResult": "Excellent result! You are a real graduate of MATSCA!",
+
+    "from": "from"
 }

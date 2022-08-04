@@ -76,14 +76,13 @@ class QuestionData {
           {'answer': LocaleKeys.kirilenko.tr(), 'isCorrect': 1},
         ]),
     Question(
-        title:
-            'Где работал чел, который вечно подъёбывал курсантов вопросами: \n- кто хочет дордочки?\n- кто в деревне жил?',
+        title: LocaleKeys.question7.tr(),
         imgUrl: 'assets/images/7.png',
         answers: [
-          {'answer': 'на гражданском аэродроме'},
-          {'answer': 'в гаражах'},
-          {'answer': 'в ГУК'},
-          {'answer': 'в столовой', 'isCorrect': 1},
+          {'answer': LocaleKeys.civilAirfield.tr()},
+          {'answer': LocaleKeys.garages.tr()},
+          {'answer': LocaleKeys.mEB.tr()},
+          {'answer': LocaleKeys.diningRoom.tr(), 'isCorrect': 1},
           {'answer': 'на военной кафедре'},
         ]),
     Question(
@@ -97,8 +96,7 @@ class QuestionData {
           {'answer': LocaleKeys.chigir.tr()},
         ]),
     Question(
-        title:
-            'Фамилия преподавателя дисциплины: \nАВТОМАТИКА УПРАВЛЕНИЯ АВИАЦИОННЫМИ ДВИГАТЕЛЯМИ',
+        title: LocaleKeys.question9.tr(),
         imgUrl: 'assets/images/9.png',
         answers: [
           {'answer': LocaleKeys.kirilenko.tr()},
@@ -108,29 +106,27 @@ class QuestionData {
           {'answer': LocaleKeys.kuryakov.tr()},
         ]),
     Question(
-        title: 'Фамилия командира 6 роты в 1996г?',
+        title: LocaleKeys.question10.tr(),
         imgUrl: 'assets/images/10.png',
         answers: [
-          {'answer': 'Хмельницкий'},
-          {'answer': 'Евсейчик '},
-          {'answer': 'Ловчий', 'isCorrect': 1},
-          {'answer': 'Физер'},
-          {'answer': 'Смолей'},
+          {'answer': LocaleKeys.khmelnitsky.tr()},
+          {'answer': LocaleKeys.evseichik.tr()},
+          {'answer': LocaleKeys.lovchiy.tr(), 'isCorrect': 1},
+          {'answer': LocaleKeys.fizer.tr()},
+          {'answer': LocaleKeys.smolay.tr()},
         ]),
     Question(
-        title:
-            'Начальник ОСО, часто употребляющий фразу, во время утреннего построения: "сколько верёвочке не виться..."?',
+        title: LocaleKeys.question11.tr(),
         imgUrl: 'assets/images/11.png',
         answers: [
-          {'answer': 'майор Кудин'},
-          {'answer': 'полковник В. Е. Семененя'},
-          {'answer': 'полковник В. П. Сидорчук'},
-          {'answer': 'полковник Д. Ф. Захарченко', 'isCorrect': 1},
-          {'answer': 'полковник Ю. М. Колесников'},
+          {'answer': LocaleKeys.majorKudin.tr()},
+          {'answer': LocaleKeys.colonelSemenenya.tr()},
+          {'answer': LocaleKeys.colonelSidorchuk.tr()},
+          {'answer': LocaleKeys.colonelZakharchenko.tr(), 'isCorrect': 1},
+          {'answer': LocaleKeys.colonelKolesnikov.tr()},
         ]),
     Question(
-        title:
-            'Фамилия преподавателя по приборостроению в ГУК, сдача предмета которому, для многих курсантов превратилась в проблему',
+        title: LocaleKeys.question12.tr(),
         imgUrl: 'assets/images/12.png',
         answers: [
           {'answer': LocaleKeys.yudo.tr()},
@@ -140,17 +136,17 @@ class QuestionData {
           {'answer': LocaleKeys.melgui.tr()},
         ]),
     Question(
-        title: 'Любимый цвет Борушко Нины Алексеевны?',
+        title: LocaleKeys.question13.tr(),
         imgUrl: 'assets/images/13.png',
         answers: [
-          {'answer': 'КРАСНЫЙ'},
-          {'answer': 'СИНИЙ'},
-          {'answer': 'ЖЁЛТЫЙ', 'isCorrect': 1},
-          {'answer': 'ЗЕЛЕНЫЙ'},
-          {'answer': 'БЕЛЫЙ'},
+          {'answer': LocaleKeys.rED.tr()},
+          {'answer': LocaleKeys.bLUE.tr()},
+          {'answer': LocaleKeys.yELLOW.tr(), 'isCorrect': 1},
+          {'answer': LocaleKeys.gREEN.tr()},
+          {'answer': LocaleKeys.wHITE.tr()},
         ]),
     Question(
-        title: 'Фамилия препода назвавшего Хиженка - Хижиной дяди Тома?',
+        title: LocaleKeys.question14.tr(),
         imgUrl: 'assets/images/14.png',
         answers: [
           {'answer': LocaleKeys.melgui.tr()},
