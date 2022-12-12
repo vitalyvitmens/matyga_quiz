@@ -82,7 +82,7 @@ class Result extends StatelessWidget {
                 TextSpan(
                   text: LocaleKeys.correctAnswers.tr(),
                   style: const TextStyle(
-                    fontSize: 26.0,
+                    fontSize: 24.0,
                     fontFamily: "Caveat",
                   ),
                 ),
